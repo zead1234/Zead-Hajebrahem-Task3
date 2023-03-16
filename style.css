@@ -57,7 +57,7 @@ transition: 0.5s;
 
 /* hero */
 .hero{
-    background-image: url(architect.jpg);
+    background-image: url(images/architect.jpg);
     width: 100vw;
     height: 500px;
     background-repeat: no-repeat;
