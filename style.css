@@ -5,6 +5,10 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
+button{
+    border-radius: 3px;
+    cursor: pointer;
+}
 .new-sectoin{
     color: black;
     font-weight: bold;
@@ -32,18 +36,29 @@
     display: flex;
     gap: 50px;
     list-style: none;
+    
+}
+.nav-ul li {
+    border-radius: 3px;
+    margin-right: 14px;
+
 }
 .nav-ul li a{
+    display: block;
 text-decoration: none;
 color: black;
-height: 100%;
 font-size: large;
-margin-right: 14px;
 transition: 0.5s;
 
 }
+.nav .bars{
+    text-decoration: none;
+    color: grey;
+    width: 20px;
+    height: 20px;
+}
 
-.nav-ul li a:hover{
+.nav-ul li:hover{
   
     background-color: grey;
 }
@@ -89,6 +104,8 @@ background-size: cover;}
     width: 45%;
     position: relative;
     margin-top: 10px;
+    border-radius: 10px;
+
 }
 .card::before{ content: "first home";
     position: absolute;
@@ -125,9 +142,11 @@ background-size: cover;}
 }
 .emp-card{
     width: 45%;
-    height: 95%;
     border: 1px solid grey;
     box-shadow: 2px 2px 10px grey;
+    border-radius: 10px;
+    margin: 10px 0;
+
 
 }
 
@@ -157,11 +176,10 @@ background-size: cover;}
 .emp button{
     width: 80%;
     height: 38px;
-    margin: auto;
+    margin: 15px auto;
     background-color: rgb(167, 167, 167);
     border: none;
     transition: 0.5s;
-    margin-bottom: 5px;
 }
 .emp button:hover{
     background-color: grey;
@@ -238,6 +256,7 @@ transition: 0.8s;
     .card img{
         width: 100%;
     }
+    
     /* emp */
     .emp{
         display: block;
